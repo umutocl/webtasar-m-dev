@@ -1,0 +1,58 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.container{
+    display: flex;
+    flex-direction:row;/*row:varsayılan değer*/
+    flex-wrap: wrap;
+}
+.container div{
+    border: 1px dashed #540375;
+    padding: 7px;
+    display:inline-block;
+    color: aliceblue;
+    margin-right: 10px;
+}
+#div1{
+    background-color:#227C70 ;
+}
+#div2{
+    background-color:#FB2576;
+}
+#div3{
+    background-color:#FFBF00;
+}
+#div4{
+    background-color: blue;
+}
+#div5{
+    background-color: #F8F988;
+}
+#div6{
+    background-color: #344D67;
+}
+#div7{
+    background-color: #282A3A;
+}
+#div8{
+    background-color:#DC3535;
+}
+#div9{
+    background-color: #FFDDD2;
+}
+
+
+div:last-child{/*last-child*/
+    color: red;
+}
+div:first-child{
+    color:rebeccapurple;
+}
+div:nth-child(odd){/*odd:tek,even:çift*/
+    color: #2192ff;
+}
+div:nth-child(even){
+    color:#000000;
+}
